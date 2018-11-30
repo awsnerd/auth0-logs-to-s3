@@ -9,6 +9,8 @@ const metadata = require('./webtask.json');
 
 const app = express();
 
+console.log('hello, world');
+
 function lastLogCheckpoint(req, res) {
   const ctx = req.webtaskContext;
   const required_settings = [
